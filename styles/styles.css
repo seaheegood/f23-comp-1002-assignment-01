@@ -1,0 +1,67 @@
+/* entire */
+* {
+  /* outline: 1px dashed #ddd; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* both index and about */
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+header h1 {
+  background-color: rgb(131, 43, 43);
+  color: aliceblue;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: rgb(131, 43, 43);
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav > ul > li > a {
+  color: aliceblue;
+  font-size: 1.5em;
+}
+
+nav > ul > li > a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+/* image size, locating left */
+img {
+  width: 250px;
+  float: left;
+  margin-right: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+body h2 {
+  text-align: center;
+  background-color: rgb(131, 43, 43);
+  color: aliceblue;
+}
